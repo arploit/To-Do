@@ -9,8 +9,8 @@ import { Draggable } from 'react-beautiful-dnd';
 
 interface Props {
     todo: Todo;
-    todos: Todo[];
-    setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
+    todos: Array<Todo>;
+    setTodos: React.Dispatch<React.SetStateAction<Array<Todo>>>
     index: number;
 }
 
